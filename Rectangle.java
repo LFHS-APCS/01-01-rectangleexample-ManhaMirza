@@ -53,7 +53,7 @@ public class Rectangle
      */
     public int getY()
     {
-
+       return this.y;
     }
 
     /**
@@ -72,6 +72,7 @@ public class Rectangle
      */
     public void setY(int theY)
     {
+      this.y = theY;
 
     }
 
@@ -82,6 +83,7 @@ public class Rectangle
     public void move(int rightX, int upY)
     {
         x = x + rightX;
+        y = y + upY;
 
     }
 
